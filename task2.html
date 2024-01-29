@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fa-lg" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-detail">
+                <p>Computer Science Engineer</p>
+                <h1>Hey, I'm <span> <br> &NonBreakingSpace; &nbsp;  &NonBreakingSpace; &nbsp;  Khushi R Tiwari</span> <br> 
+                    from India.</h1>
+                <br>
+                <br>
+                <h3>
+                    I'm a CSE student  who is effecient in coding, <br>&NonBreakingSpace; &NonBreakingSpace; fond of dancing, acting and travelling.
+
+                <h/3>
+
+              <div class="photo" style="background-image: url(image1.jpg);"></div> 
+                
+            </div>        
+        </div>
+    </div>
+  
+    <!-- ABOUT -->
+    <div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="circle">
+                <h3>About Me</h3>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+            </div>
+            <div class="info">
+                <h1 class="sub-info">Info</h1>
+                <p id="about-txt" style="font-size: 20px;">Passionate Computer Science Engineer with a strong foundation in software development, algorithms, and problem-solving. I thrive on transforming complex challenges into innovative solutions through code and technology. With a dedication to lifelong learning, I continuously explore emerging trends in the tech industry to stay at the forefront of advancements. My goal is to leverage my skills to create impactful software applications that shape the future of technology. Open to networking, collaboration, and new opportunities in the world of computer science and engineering
+                </p>
+                
+                <div class="info-menu">
+                    <div class="menus hover-action" onclick="opentab('skills')">Skills</div>
+                    <div class="menus" onclick="opentab('experience')">Experience</div>
+                    <div class="menus" onclick="opentab('education')">Education</div>
+                    <div class="menus" onclick="opentab('activities')"> Curricular Activities</div>
+                </div>
+                <div class="menu-content hover-content" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br></li>
+                        <li><span>Software Development</span><br></li>
+                        <li><span>Data Structure And Algorithms</span><br></li>
+                        <li><span>Communication Skills</span><br></li>
+                        <li><span>Python Developer</span><br></li>
+                        
+                    </ul>
+                </div>
+                <div class="menu-content" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Participated in ELEVATE IEEE CS SBC CHAPTER, GHRCE EVENT ELEVATE 23! </li>
+                        <li><span>2023</span><br>Participated in Smart India Hackathon! </li>
+                        <li><span>2024</span><br>Speakathon Limca Book Of Records! </li>
+                        <li><span>2023</span><br>Web Development Internship at Bharat Intern</li>
+                        <li><span>2024</span><br>Python Development Internship at Bharat Intern</li>
+                    </ul>
+                </div>
+                <div class="menu-content" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Bachelor of Computer Science And Engineering(BTech. CSE) from GH Raisoni College of Engineering Nagpur(GHRCE)</li>
+                        <li><span>2021</span><br>Higher Secondary Certificate Examination(HSC) from Priya Vidya Vihar College<br><span>(95.00%)</span></li>
+                        <li><span>2019</span><br>Secondary School certificate Examination(SSC)<br><span>(90%)</span></li>
+                    </ul>
+                </div>
+                <div class="menu-content" id="activities">
+                    <ul>
+                        <li><span>Cultural Incharge In Phoenix Forum</span> 2023</li>
+                        <li><span>Runner-Up Group SINGING Competition </span> 2023<br></li>
+                       <li><span>Title Of "MISS PRIME WALK" in Fashion Show </span> 2023<br></li>
+                       <li><span>Runner-Up Theme Based Dance </span> 2023<br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing and developing attractive and effective real world 
+                        websites using html,css and javascript.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Backend Development</h2>
+                    <p>Developing real world and problem solving applications using JAVA with MYSQL.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-web"></i>
+                    <h2>Python Development</h2>
+                    <p>Developing real world and problem solving applications using PYTHON.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----contact info-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left-contact">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> khushi.tiwari.cse@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9156907928</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter fa-lg"></i></a>
+                    </div>
+                    <a href="images/CV-DETAILS.pdf" download class="btn downlodeBtn">Download CV</a>
+                </div>
+                <div class="right-contact">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Email id " required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn downlodeBtn">Submit</button>
+                    </form>
+                    <span id="conformMsg"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Copyright-->
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Khushi Studio. Made with <i class="fa-solid fa-heart"></i> by us.</p>
+        </div>
+    </div>
+
+    <script>
+        var menus= document.getElementsByClassName("menus");
+        var menucontent= document.getElementsByClassName("menu-content");
+        function opentab(tabname){
+            for(tablink of menus){
+                tablink.classList.remove("hover-action");
+            }
+            for(tabcontent of menucontent){
+                tabcontent.classList.remove("hover-content");
+            }
+            event.currentTarget.classList.add("hover-action");
+            document.getElementById(tabname).classList.add("hover-content");
+
+            
+        }
+        
+    </script>
+   
+</body>
+</html>
